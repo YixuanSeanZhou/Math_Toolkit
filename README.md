@@ -21,6 +21,5 @@ In order to run the code in this repo, one need to run `pip -r requirements.txt`
         'Bézout coefficients': (a's coeff, b's coeff),
         'quotients by the gcd:': (a's quotient, b's quotient)
     }
-
     ```
 
