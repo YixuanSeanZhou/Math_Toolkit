@@ -1,7 +1,9 @@
 import sys
 import getopt
+from typing import Dict
 
-def euclidean_algorithm_gcd(a, b):
+
+def euclidean_algorithm_gcd(a: int, b: int) -> Dict:
     if (a < b):
         temp = b
         b = a
@@ -46,11 +48,13 @@ if __name__ == '__main__':
                 num_a = int(arg)
             except:
                 print('Input should be int')
+                sys.exit(2)
         elif opt in ("-b", "--num_b"):
             try:
                 num_b = int(arg)
             except:
                 print('Input should be int')
+                sys.exit(2)
 
     ret = euclidean_algorithm_gcd(num_a, num_b)
     print(ret)
