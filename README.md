@@ -8,4 +8,10 @@ In order to run the code in this repo, one need to run `pip -r requirements.txt`
 
 ## Tool List
 
-euclidean_algorithm.py: Implemented the euclidean algorithm with the calculation of Bezout's coeffs and gcd.
+### Algebraic Tools
+
+#### Euclidean Algorithm
+`euclidean_algorithm.py`
+
+Implemented the euclidean algorithm with the calculation of Bezout's coeffs and gcd.
+
